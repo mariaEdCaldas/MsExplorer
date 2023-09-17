@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:context=".Bonito">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:text="@string/ms_explorer"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="55dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="0dp"
+                app:srcCompat="@drawable/ms_explorer" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/buttonBuracoDasAraras"
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="0dp"
+            android:foreground="@drawable/Buraco_das_Araras"
+            android:text="@string/buttonDeCG"
+            app:layout_constraintBottom_toTopOf="@+id/buttonBonito"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textViewBuracoDA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#39353434"
+            android:backgroundTint="@color/black"
+            android:text="@string/buraco_das_araras"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="@color/black"
+            android:textDirection="firstStrong"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonJardimEcoPark"
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="0dp"
+            android:background="#373131"
+            android:backgroundTint="#4E4343"
+            android:backgroundTintMode="screen"
+            android:foreground="@drawable/jardim_eco_park2"
+            android:text="@string/buttonDeBonito"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewJardimEP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#39353434"
+            android:backgroundTint="@color/black"
+            android:text="@string/jardim_eco_park"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="@color/black"
+            android:textDirection="firstStrong"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonCemiterioDosHerois"
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:foreground="@drawable/Cemit_rio_dos_Her_is"
+            android:text="@string/buttonbodoquena"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewCemiterioDH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#39353434"
+            android:backgroundTint="@color/black"
+            android:text="@string/cemit_rio_dos_her_is"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="@color/black"
+            android:textDirection="firstStrong"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonRetiradaDaLaguna"
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:foreground="@drawable/Sala_de_Exposi__o_Retirada_da_Laguna__3_"
+            android:text="@string/buttonbodoquena"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewSalaDeExpoRDL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#39353434"
+            android:backgroundTint="@color/black"
+            android:text="@string/sala_de_exposi_o_retirada_da_laguna"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="@color/black"
+            android:textDirection="firstStrong"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonMuseuCER3"
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:foreground="@drawable/MuseuCER"
+            android:text="@string/buttonbodoquena"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewMuseuCER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#39353434"
+            android:backgroundTint="@color/black"
+            android:text="@string/museu_cer_3"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="@color/black"
+            android:textDirection="firstStrong"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonCatedralJardim"
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:foreground="@drawable/catedralJardimMs"
+            android:text="@string/buttonbodoquena"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewCatedralJMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#39353434"
+            android:backgroundTint="@color/black"
+            android:text="@string/catedral_sedia_a_diocese"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="@color/black"
+            android:textDirection="firstStrong"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="@string/voltarJardim" />
+
+    </LinearLayout>
+</ScrollView>
