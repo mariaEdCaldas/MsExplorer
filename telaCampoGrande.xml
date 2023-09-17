@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:text="@string/ms_explorer"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="55dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="0dp"
+                app:srcCompat="@drawable/ms_explorer" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/buttonCG"
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="0dp"
+            android:foreground="@drawable/nacoes_indigenas"
+            android:text="@string/buttonDeCG"
+            app:layout_constraintBottom_toTopOf="@+id/buttonBonito"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textViewNacoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#39353434"
+            android:backgroundTint="@color/black"
+            android:text="@string/parque_das_na_es_ind_genas"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="@color/black"
+            android:textDirection="firstStrong"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonBonito"
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="0dp"
+            android:background="#373131"
+            android:backgroundTint="#4E4343"
+            android:backgroundTintMode="screen"
+            android:foreground="@drawable/bioparque_pantanal"
+            android:text="@string/buttonDeBonito"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewBioparque"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#39353434"
+            android:backgroundTint="@color/black"
+            android:text="@string/bioparque_pantanal"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="@color/black"
+            android:textDirection="firstStrong"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_bdq"
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:foreground="@drawable/mercadao_municipal"
+            android:text="@string/buttonbodoquena"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewMercadao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#39353434"
+            android:backgroundTint="@color/black"
+            android:text="@string/mercad_o_municipal"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="@color/black"
+            android:textDirection="firstStrong"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonMorada"
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:foreground="@drawable/morada_dos_bais"
+            android:text="@string/buttonbodoquena"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewMoradaCG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#39353434"
+            android:backgroundTint="@color/black"
+            android:text="@string/morada_dos_ba_s"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="@color/black"
+            android:textDirection="firstStrong"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonFeiraCG"
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:foreground="@drawable/feira_central"
+            android:text="@string/buttonbodoquena"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewFeira"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#39353434"
+            android:backgroundTint="@color/black"
+            android:text="@string/feira_central"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="@color/black"
+            android:textDirection="firstStrong"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="@string/voltarCg"/>
+
+    </LinearLayout>
+</ScrollView>
